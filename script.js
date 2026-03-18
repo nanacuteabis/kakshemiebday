@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const answer=answerInput.value.toUpperCase();
         if(answer===questions[currentQuestion].a){
             feedback.textContent="xixi selamat yeaaa😎";
-            emojiFeedback.textContent="😊";
+            emojiFeedback.textContent="🤩";
             currentQuestion++;
             if(currentQuestion<questions.length){
                 setTimeout(loadQuestion,1000);
